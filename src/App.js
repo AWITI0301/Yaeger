@@ -14,19 +14,59 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <UserProvider>
-        <Router>
-          <NavBar />
-          <switch>
-          <Route path="/comments/new">
-            <CommentForm />
-          </Route>
-          </switch>
-        </Router>
-      </UserProvider>
-    
-  
-    </div>
+    <UserProvider>
+      <Router>
+      <NavBar/>
+       
+        <Switch>
+
+        <Route path="/comments/new">
+          <CommentForm />
+        </Route>
+
+        <Route path="/game/new">
+          <GameForm />
+        </Route>
+
+        <Route path="/comments">
+          <CommentContainer />
+        </Route>
+      
+
+        <Route path="/games">
+          <GamesContainer />
+        </Route>
+
+
+        <Route path="/games/:id">
+          <GameCard />
+        </Route>
+
+        
+      <Route exact path="/signup">
+        <SignUp />
+      </Route>
+
+      <Route exact path="/login">
+        <Login />
+      </Route>
+
+      <Route exact path="/logout">
+        <Logout />
+      </Route>
+
+      <Route exact path="/">
+        <Home />
+      </Route>
+
+       <Route path="*">
+        <h3>404 Page Not Found</h3>
+      </Route> 
+     
+      </Switch>
+    </Router>
+    </UserProvider>
+  </div>
   );
 }
 
