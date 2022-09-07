@@ -8,12 +8,42 @@ function NavBar () {
 
  
     return(
-        <div className="nav-bar">
-            <NavLink to ="/">
-            HOME
-            </NavLink>
-        </div>
-    )
+        <div className='nav-bar'>
+        <NavLink to ="/">
+            Home
+        </NavLink>
+
+        <NavLink to ="/games">
+            Games
+        </NavLink>
+
+       
+
+        <NavLink to ="/comments">
+            Comments
+        </NavLink>
+
+        
+       {user ? <NavLink
+       activeStyle={{
+           fontWeight:"bolder",
+           color: "red"
+       }}
+      to="/logout"
+       >Logout</NavLink> : (<NavLink
+       activeStyle={{
+           fontWeight:"bolder",
+           color: "red"
+       }}
+      to="/signup"
+       >SignUp</NavLink> )}
+
+       <NavLink to ="/game/new">
+            New Game
+        </NavLink>
+
+    </div>
+)
 }
 export default NavBar
 
