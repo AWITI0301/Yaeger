@@ -1,6 +1,8 @@
 import NavBar from './components/NavBar';
 import { UserProvider } from './context/User';
 
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
 
 function App() {
   return (
