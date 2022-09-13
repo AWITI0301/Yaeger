@@ -8,7 +8,7 @@ function CommentCard({comment}) {
     const [commentObj, setCommentObj] = useState(null);
     useEffect(() => {
       if (!comment) {
-        fetch(`http://localhost:9292/comments/${id}`)
+        fetch(`https://backend-0202.herokuapp.com//comments/${id}`)
           .then((resp) => resp.json())
           .then((comment) => setCommentObj(comment))
       }

@@ -25,7 +25,7 @@ const SignUp = () => {
         }
        
     
-    fetch("http://localhost:9292/users", {
+    fetch("https://backend-0202.herokuapp.com//users", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

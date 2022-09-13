@@ -28,7 +28,7 @@ const CommentForm = () => {
             user_id: comment.user_id
         }
 
-        fetch("http://localhost:9292/comments", {
+        fetch("https://backend-0202.herokuapp.com//comments", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

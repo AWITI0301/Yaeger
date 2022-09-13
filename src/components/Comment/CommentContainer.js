@@ -9,7 +9,7 @@ const CommentContainer = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const resp = await fetch("http://localhost:9292/comments")
+                const resp = await fetch("https://backend-0202.herokuapp.com//comments")
                 const data = await resp.json()
                 debugger
                 setComments(data)
