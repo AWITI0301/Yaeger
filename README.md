@@ -9,6 +9,11 @@
 
 -This project is a simple responsive fullstack website that enables games creator to post their games and receive comments and feedback from the other users. they also get likes from other users.
 
+The game ctreator can post the game in the website, 
+other users can comment on that particular game 
+they can also like the game
+the owner of the game can also delete the game as they wish
+
 
 ## Installation
 Ensure you have npm installed on your computer.
