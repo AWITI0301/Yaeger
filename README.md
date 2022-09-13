@@ -1,9 +1,28 @@
-Description
-This project is a simple responsive fullstack website that enables games creator to post their games and receive comments and feedback from the other users. they also get likes from other users.
 
-Go Back to the top
+# Yeager
 
-#Features
+
+[Deployed-link] ( https://yaeger-front.herokuapp.com/)
+
+
+## Description
+
+-This project is a simple responsive fullstack website that enables games creator to post their games and receive comments and feedback from the other users. they also get likes from other users.
+
+
+## Installation
+Ensure you have npm installed on your computer.
+
+- Fork this repository and clone it to your computer.
+- In the folder where you've cloned it, cd into the cloned project
+- If your terminal wasn't open before this, open it and run the commands below:
+
+- ![#1589F0] (npm install)
+- ![#1589F0] (npm start)
+
+- This process will enable you to have your the project in your local environment but the link above (deployed link) should function similarly to running npm start.
+
+# Features
 As a user of the website,you will be able to :
 
 Log in to the Website using google OAuth to allow access
@@ -19,16 +38,17 @@ Unzip the downloaded files in a folder of choice.
 
 Open the index file from the zipped file with any browser.
 
-Go Back to the top
+## Credits
+- There were no collaborators when i was doing the project.
+- just giving credits to myslef for the hard work.
 
-#Live Link
-Click this link to view the live application https://yaeger-front.herokuapp.com/
-Technology Used
-HTML - The Markup language was used in building the base structure of the webpage.
-CSS - which was used to style the HTML structure to achieve the visual result with a big emphasis on { display:flex; }.
-React JS - Mostly used to dynamically render the events to DOM fetch data from the API and also improve interactivity with on the website for the user
-Goole OAuth - Handles the Authentication of the user Go Back to the top
-Licence
-MIT License Copyright (c) [2022] [Donald Brooks Arum]
+# License
+JONN OKECH (individual), owns this recipe Content. However, I support the development and availability of educational materials in the public domain. Therefore, I grant users set forth in this repository certain rights to reuse, build upon and share such recipe Content subject to the terms of the Educational Content License set forth here (http://learn.co/content-license). You must read carefully the terms and conditions contained in the Recipe Content License as such terms govern access to and use of the Educational Content.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. Go Back to the top
+JOHN AWITI is willing to allow you access to and use of the RECIPE Content only on the condition that you accept all of the terms and conditions contained in the Educational Content License set forth here (http://learn.co/content-license). By accessing and/or using the  Content, you are agreeing to all of the terms and conditions contained in the Educational Content License. If you do not agree to any or all of the terms of the Educational Content License, you are prohibited from accessing, reviewing or using in any way the Educational Content.
+
+# LINKS
+@facebook  John Mark
+@twitter    John Mark
+@IG         john_mark_69
+@linkedin   Awiti John
