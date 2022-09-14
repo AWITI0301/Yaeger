@@ -29,7 +29,7 @@ const GameForm = () => {
             user_id: game.user_id
         }
 
-        fetch("http://localhost:9292/games", {
+        fetch("https://backend-0202.herokuapp.com//games", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

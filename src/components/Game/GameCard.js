@@ -20,7 +20,7 @@ function GamesCard({ game, deleteGame, comments}) {
 
   useEffect(() => {
     if (!game) {
-      fetch(`http://localhost:9292/games/${game.id}`)
+      fetch(`https://backend-0202.herokuapp.com//games/${game.id}`)
         .then((resp) => resp.json())
         .then((game) => setGameObj(game))
     }
@@ -30,7 +30,7 @@ function GamesCard({ game, deleteGame, comments}) {
   if (!finalGame) return <h1>Loading...</h1>
 
   function handleDeleteClick() {
-    fetch(`http://localhost:9292/games/${game.id}`, {
+    fetch(`https://backend-0202.herokuapp.com//games/${game.id}`, {
       method: "DELETE",
     })
       .then(r => r.json())

@@ -9,7 +9,7 @@ const GamesContainer = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const resp = await fetch("http://localhost:9292/games")
+                const resp = await fetch("https://backend-0202.herokuapp.com//games")
                 const data = await resp.json()
             
                 setGames(data)
